@@ -1,4 +1,4 @@
-# website-date
+# pagedate
 
 Determines when a web page was published, and whether it has been modified since.
 

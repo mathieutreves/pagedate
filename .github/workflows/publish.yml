@@ -16,7 +16,7 @@
 #   2. Create the GitHub environment named `npm` (Settings → Environments), so
 #      it matches the `environment:` key below.
 #   3. On npmjs.com → each package → Settings → Trusted Publisher → GitHub
-#      Actions, enter: mathieutreves / website-date / publish.yml / environment
+#      Actions, enter: mathieutreves / pagedate / publish.yml / environment
 #      `npm`. The workflow filename and environment must match this file exactly
 #      or the OIDC exchange is refused. Do this for BOTH packages.
 #   4. Then, and only then, revoke any classic publish token and require 2FA.

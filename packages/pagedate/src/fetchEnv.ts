@@ -19,7 +19,7 @@ import type { Env } from './types.js'
 import { isSafeFetchTarget } from './extract/urlGuard.js'
 
 export const DEFAULT_USER_AGENT =
-  'Mozilla/5.0 (compatible; pagedate/0.1; +https://github.com/mathieutreves/website-date)'
+  'Mozilla/5.0 (compatible; pagedate/0.1; +https://github.com/mathieutreves/pagedate)'
 
 /** Redirect hops followed by hand, so each one can be re-checked. */
 const MAX_REDIRECTS = 3

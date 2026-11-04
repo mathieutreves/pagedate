@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "Extract publication and modification dates from web pages, with provenance and confidence. Browser-first, zero runtime dependencies.",
   "author": "Mathieu Treves",
-  "homepage": "https://github.com/mathieutreves/website-date#readme",
+  "homepage": "https://github.com/mathieutreves/pagedate#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathieutreves/website-date.git",
+    "url": "git+https://github.com/mathieutreves/pagedate.git",
     "directory": "packages/pagedate"
   },
   "bugs": {
-    "url": "https://github.com/mathieutreves/website-date/issues"
+    "url": "https://github.com/mathieutreves/pagedate/issues"
   },
   "type": "module",
   "license": "MIT",

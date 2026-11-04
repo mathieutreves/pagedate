@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Report privately through GitHub's [security advisory form](https://github.com/mathieutreves/website-date/security/advisories/new), not through a public issue. You will get an acknowledgement within a week.
+Report privately through GitHub's [security advisory form](https://github.com/mathieutreves/pagedate/security/advisories/new), not through a public issue. You will get an acknowledgement within a week.
 
 If you would rather not use GitHub, open a public issue with no detail in it — "I have a security report, how should I send it?" — and a private channel will be arranged.
 
