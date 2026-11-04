@@ -65,5 +65,5 @@ First release. Nothing is on npm or in either extension store at time of writing
 - Head-to-head evaluation against `htmldate`, `metascraper`, `@extractus/article-extractor` and `unfluff`, with the caveats recorded in [docs/BENCHMARK.md](docs/BENCHMARK.md) and [docs/CORPUS-NOTES.md](docs/CORPUS-NOTES.md).
 - `scripts/validate.sh` reproduces every published number.
 
-[Unreleased]: https://github.com/mathieutreves/website-date/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/mathieutreves/website-date/releases/tag/v0.1.0
+[Unreleased]: https://github.com/mathieutreves/pagedate/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/mathieutreves/pagedate/releases/tag/v0.1.0

@@ -200,7 +200,7 @@ Read both columns. Every page in this corpus has a date, so declining to answer 
 
 On the dev split — the one the extraction rules were developed against — pagedate scores 96.0%. Quote the held-out figure.
 
-Full tables, the corpus construction, and what was tried and rejected: [docs/BENCHMARK.md](https://github.com/mathieutreves/website-date/blob/main/docs/BENCHMARK.md). Everything is reproducible with `./scripts/validate.sh`.
+Full tables, the corpus construction, and what was tried and rejected: [docs/BENCHMARK.md](https://github.com/mathieutreves/pagedate/blob/main/docs/BENCHMARK.md). Everything is reproducible with `./scripts/validate.sh`.
 
 ## Status
 

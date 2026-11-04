@@ -48,7 +48,7 @@ Two commitments distinguish it from conventional approaches:
 pnpm workspaces monorepo:
 
 ```
-website-date/
+pagedate/
 ├─ packages/
 │  └─ pagedate/                  # the library — zero runtime deps
 │     ├─ src/

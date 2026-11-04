@@ -69,7 +69,7 @@ An [MCPB bundle](https://github.com/modelcontextprotocol/mcpb) — a `.mcpb` zip
 
 - **Icons** at `apps/extension/public/icon/{16,32,48,96,128}.png`. WXT discovers them and writes the manifest key; CI fails if any of the four the stores require is missing. 96 is not among those four and is present because Firefox's `about:addons` renders it.
 - **Screenshots**, 1280×800, Chrome only. Generated — see below.
-- **A privacy policy URL.** Use the rendered [docs/PRIVACY.md](https://github.com/mathieutreves/website-date/blob/main/docs/PRIVACY.md).
+- **A privacy policy URL.** Use the rendered [docs/PRIVACY.md](https://github.com/mathieutreves/pagedate/blob/main/docs/PRIVACY.md).
 
 ### Screenshots
 
@@ -146,7 +146,7 @@ Reviewer notes:
 >
 > The extension is a thin UI over the `pagedate` library in this same archive
 > at `packages/pagedate`; both are MIT-licensed and developed in the open at
-> https://github.com/mathieutreves/website-date. There are no runtime
+> https://github.com/mathieutreves/pagedate. There are no runtime
 > dependencies and no remote code.
 
 ### Version bumps

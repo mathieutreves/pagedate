@@ -73,10 +73,10 @@ Page Date is a general-purpose reading tool with no accounts and no data collect
 
 ## Changes
 
-Any change to this policy is a commit in the public repository, so its full history is visible at <https://github.com/mathieutreves/website-date/commits/main/docs/PRIVACY.md>. A change that widens what leaves your browser will ship with a version that asks you again.
+Any change to this policy is a commit in the public repository, so its full history is visible at <https://github.com/mathieutreves/pagedate/commits/main/docs/PRIVACY.md>. A change that widens what leaves your browser will ship with a version that asks you again.
 
 ## Contact
 
-Open an issue at <https://github.com/mathieutreves/website-date/issues>.
+Open an issue at <https://github.com/mathieutreves/pagedate/issues>.
 
-The source for the entire extension is at <https://github.com/mathieutreves/website-date> under the MIT licence. Every claim on this page can be checked against it: `apps/extension/lib/analyze.ts` holds the network and caching behaviour, `apps/extension/lib/archive.ts` the Internet Archive lookup, `apps/extension/lib/link-date.ts` the two tiers used for links and search results, `apps/extension/lib/annotate.ts` the fetch cap, and `apps/extension/lib/settings.ts` the permission grants.
+The source for the entire extension is at <https://github.com/mathieutreves/pagedate> under the MIT licence. Every claim on this page can be checked against it: `apps/extension/lib/analyze.ts` holds the network and caching behaviour, `apps/extension/lib/archive.ts` the Internet Archive lookup, `apps/extension/lib/link-date.ts` the two tiers used for links and search results, `apps/extension/lib/annotate.ts` the fetch cap, and `apps/extension/lib/settings.ts` the permission grants.

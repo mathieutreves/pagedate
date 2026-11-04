@@ -17,7 +17,7 @@ import { join } from 'node:path'
 
 const FIXTURES_DIR = join(import.meta.dirname, '..', 'fixtures')
 const USER_AGENT =
-  'Mozilla/5.0 (compatible; pagedate-fixture/0.1; +https://github.com/mathieu/website-date)'
+  'Mozilla/5.0 (compatible; pagedate-fixture/0.1; +https://github.com/mathieutreves/pagedate)'
 
 function parseArgs(argv: string[]): { url: string; slug?: string } {
   const positional = argv.filter((a) => !a.startsWith('--'))
