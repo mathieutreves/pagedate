@@ -1,6 +1,6 @@
 {
   "name": "pagedate-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server exposing pagedate: when was this page published, when was it last changed, and how much should you trust that",
   "mcpName": "io.github.mathieutreves/pagedate",
   "author": "Mathieu Treves",
@@ -50,6 +50,7 @@
   },
   "scripts": {
     "build": "tsup && tsc -p tsconfig.build.json",
+    "prepack": "pnpm run build",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

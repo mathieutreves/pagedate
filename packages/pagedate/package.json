@@ -1,6 +1,6 @@
 {
   "name": "pagedate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract publication and modification dates from web pages, with provenance and confidence. Browser-first, zero runtime dependencies.",
   "author": "Mathieu Treves",
   "homepage": "https://github.com/mathieutreves/pagedate#readme",
@@ -61,6 +61,7 @@
   },
   "scripts": {
     "build": "tsup && tsc -p tsconfig.build.json",
+    "prepack": "pnpm run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
