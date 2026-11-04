@@ -4,6 +4,17 @@ Notable changes to `pagedate` and to the Page Date extension. Format follows [Ke
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-11-04
+
+### Fixed
+
+- **`pagedate-mcp` 0.1.0 shipped without its code.** It was published by hand from an unbuilt tree, so the tarball held only `package.json`, the README and the licence, and `npx pagedate-mcp` failed. Both packages now build in `prepack`, so a publish from any tree packs what it just built. 0.1.0 is deprecated.
+- `pagedate` has no code changes; it is republished at 0.1.1 so both packages come from CI with provenance.
+
+## [0.1.0] — 2026-11-04
+
+First release of the npm packages. The extension is not in either store yet.
+
 ### Added
 
 - **`pagedate/edge`** — a subpath for Cloudflare Workers, Deno and Bun. Adds `webEnv()`, a network `Env` built from web-platform globals alone. It runs the same code as `nodeEnv()`: the redirect walk, timeout and capped body read live in a shared module. `blockPrivateNetwork: 'strict'` degrades to `'literal'` without an injected `resolveHostname`, and XML signals are skipped on runtimes with no `DOMParser` unless `parseXml` is supplied. A test walks the import graph from the entry point and fails on any `node:` or bare import.
@@ -36,10 +47,6 @@ Notable changes to `pagedate` and to the Page Date extension. Format follows [Ke
 - **The htmldate comparison was wrong in htmldate's disfavour and has been corrected.** `find_date` takes an `original_date` flag; left at its default it returns the most recent date on a page rather than the publication date, which is what every gold label in both corpora is. Corrected, htmldate (extensive) goes 82.6% → 93.3% on the held-out permalink split and takes first place from pagedate, and 90.9% → 96.4% on its own corpus. It is the only tool measured with such a switch, so no other row moved. See docs/BENCHMARK.md.
 - Benchmark harnesses take "now" from each page's capture timestamp instead of a fixed constant that predated part of the corpus. See docs/BENCHMARK.md. This moves the published figures and is a correction to the measurement, not to the library.
 - `fixtures/aljazeera-arabic-news` expected `2026-07-27`, read off a UTC `datePublished` of `2026-07-27T21:02Z`. Doha is UTC+3, and the page's canonical URL and byline both say the 28th. Corrected.
-
-## [0.1.0] — unreleased
-
-First release. Nothing is on npm or in either extension store at time of writing, so this entry describes what the first published version contains.
 
 ### Library
 
